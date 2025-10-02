@@ -37,6 +37,14 @@ const NavMenu = () => {
       >
         Components
       </Link>
+      <Link
+        href='/applet'
+        className={cn('text-muted-foreground hover:text-foreground flex items-center gap-2 text-sm', {
+          'text-primary hover:text-primary/80 font-medium': pathname.startsWith('/applet')
+        })}
+      >
+        Applet
+      </Link>
     </div>
   )
 }

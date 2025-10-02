@@ -8,6 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = [
     '/theme-generator',
     '/components',
+    '/applet',
     '/docs/getting-started/introduction',
     ...categories.filter(category => !category.isComingSoon).map(category => `/docs/components/${category.slug}`)
   ].map(route => ({

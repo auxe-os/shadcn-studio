@@ -5,7 +5,6 @@ import type { ReactNode } from 'react'
 import PagesContent from '@/components/layout/PagesContent'
 import Header from '@/components/layout/Header'
 import AppSidebar, { CustomSidebarTrigger } from '@/components/layout/Sidebar'
-import Footer from '@/components/layout/Footer'
 
 const PagesLayout = ({ children }: { children: ReactNode }) => {
   return (
@@ -17,7 +16,6 @@ const PagesLayout = ({ children }: { children: ReactNode }) => {
           <PagesContent>{children}</PagesContent>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

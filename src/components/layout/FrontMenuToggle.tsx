@@ -39,6 +39,11 @@ const FrontMenuToggle = () => {
               Components
             </Link>
           </DropdownMenuItem>
+          <DropdownMenuItem asChild>
+            <Link href='/applet' className='cursor-pointer'>
+              Applet
+            </Link>
+          </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
