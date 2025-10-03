@@ -71,7 +71,7 @@ const Header = ({ toggle }: { toggle: ReactNode }) => {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <div className='card-sim' />
+                    <div className='card-sim size-5' aria-hidden='true' />
                     <span className='sr-only'>Github</span>
                   </Link>
                 </Button>

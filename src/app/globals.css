@@ -53,25 +53,31 @@
   .card-sim {
     position: relative;
     display: inline-block;
+    vertical-align: middle;
     border-radius: 9999px;
     background-color: var(--foreground);
+    color: var(--foreground);
+    transition: transform 120ms ease;
   }
   .card-sim::before,
   .card-sim::after {
     content: '';
     position: absolute;
-    left: 18%;
-    width: 64%;
-    height: 18%;
+    left: 20%;
+    width: 60%;
+    height: 16%;
     border-radius: 9999px;
     background-color: var(--background);
     transform: rotate(-38deg);
   }
   .card-sim::before {
-    top: 32%;
+    top: 33%;
   }
   .card-sim::after {
-    top: 62%;
+    top: 60%;
+  }
+  .card-sim:hover {
+    transform: scale(1.05);
   }
 }
 
