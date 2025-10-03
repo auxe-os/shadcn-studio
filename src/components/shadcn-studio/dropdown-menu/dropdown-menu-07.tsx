@@ -1,4 +1,4 @@
-import { User, Settings, Bell, LogOut, CreditCard } from 'lucide-react'
+import { User, Settings, Bell, LogOut, CreditCard, WalletCards } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -20,7 +20,7 @@ const listItems = [
     property: 'Settings'
   },
   {
-    icon: CreditCard,
+    icon: WalletCards,
     property: 'Billing'
   },
   {

@@ -114,6 +114,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
   return (
     <html
       lang='en'
+      suppressHydrationWarning
       className={cn(fontSans.variable, fontMono.variable, 'flex min-h-full w-full scroll-smooth', mode)}
       style={{ colorScheme: mode }}
     >

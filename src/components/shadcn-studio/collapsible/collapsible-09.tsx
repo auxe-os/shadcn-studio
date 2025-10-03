@@ -2,7 +2,7 @@
 
 import { useId } from 'react'
 
-import { ChevronDownIcon, CreditCardIcon } from 'lucide-react'
+import { ChevronDownIcon } from 'lucide-react'
 
 import { usePaymentInputs } from 'react-payment-inputs'
 import images, { type CardImages } from 'react-payment-inputs/images'
@@ -162,7 +162,7 @@ const CollapsibleFormDemo = () => {
                         })}
                       />
                     ) : (
-                      <CreditCardIcon className='size-4' />
+                      <div className='card-sim' />
                     )}
                     <span className='sr-only'>Card Provider</span>
                   </div>

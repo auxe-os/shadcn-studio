@@ -48,6 +48,33 @@
   --spacing: 0.25rem;
 }
 
+@layer components {
+  /* SIM card-style logo mark */
+  .card-sim {
+    position: relative;
+    display: inline-block;
+    border-radius: 9999px;
+    background-color: var(--foreground);
+  }
+  .card-sim::before,
+  .card-sim::after {
+    content: '';
+    position: absolute;
+    left: 18%;
+    width: 64%;
+    height: 18%;
+    border-radius: 9999px;
+    background-color: var(--background);
+    transform: rotate(-38deg);
+  }
+  .card-sim::before {
+    top: 32%;
+  }
+  .card-sim::after {
+    top: 62%;
+  }
+}
+
 .dark {
   --background: oklch(0.141 0.005 285.823);
   --foreground: oklch(0.985 0 0);

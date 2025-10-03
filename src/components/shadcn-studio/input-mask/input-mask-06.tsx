@@ -2,7 +2,7 @@
 
 import { useId } from 'react'
 
-import { CreditCardIcon } from 'lucide-react'
+/* icon replaced by card-sim div */
 
 import { usePaymentInputs } from 'react-payment-inputs'
 import images, { type CardImages } from 'react-payment-inputs/images'
@@ -29,7 +29,7 @@ const InputCardDetailsDemo = () => {
                 })}
               />
             ) : (
-              <CreditCardIcon className='size-4' />
+              <div className='card-sim' />
             )}
             <span className='sr-only'>Card Provider</span>
           </div>
