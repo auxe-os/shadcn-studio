@@ -142,3 +142,4 @@ These projects form the backbone of shadcn/studio, allowing us to build a powerf
 - [Freebies](https://themeselection.com/item/category/freebies/)
 - [Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
 - [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
+# auxe-net
